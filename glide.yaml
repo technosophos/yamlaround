@@ -1,0 +1,3 @@
+package: github.com/technosophos/yamlaround
+import:
+- package: github.com/ghodss/yaml
