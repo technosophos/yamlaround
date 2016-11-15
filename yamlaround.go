@@ -28,8 +28,6 @@ func main() {
 		os.Exit(3)
 	}
 
-	fmt.Printf("COFFEE: %q\n", ydoc["coffee"].(string))
-
 	out, err := yaml.Marshal(ydoc)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "Error serializing file: %s\n", err)
