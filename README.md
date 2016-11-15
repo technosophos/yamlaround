@@ -7,5 +7,5 @@ Usage:
 
 ```
 $ glide install
-$ go run ./yamlaround.go
+$ go run ./yamlaround.go somefile.yaml
 ```
